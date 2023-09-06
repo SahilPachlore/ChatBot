@@ -13,7 +13,7 @@ function App() {
 
     }
     const generateQuery= async ()=>{
-        const response= await fetch("http://localhost:3000/generate",{
+        const response= await fetch("https://chatbotsql.onrender.com/generate",{
             method: "POST",
       headers: {
         "Content-Type": "application/json",
